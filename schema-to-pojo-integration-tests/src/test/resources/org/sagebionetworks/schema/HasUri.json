@@ -1,16 +1,15 @@
 {
-    "name":"HasURI",
-    "properties":{
-        "requireUri":{
-            "type":"string",
-            "format":"uri",
-            "required":true,
-        },
-        "notRequiredUri":{
-            "type":"string",
-            "format":"uri",
-            "required":false,
-        },
-        
-    }
+	"name": "HasURI",
+	"properties": {
+		"requireUri": {
+			"type": "string",
+			"format": "uri",
+			"required": true
+		},
+		"notRequiredUri": {
+			"type": "string",
+			"format": "uri",
+			"required": false
+		}
+	}
 }

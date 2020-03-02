@@ -1,0 +1,38 @@
+{
+	"name": "Pet",
+	"id": "my.organization.pets.Pet",
+	"description": "Base type information shared by all pet types.",
+	"abstract" : true,
+	"implements": [
+		{
+			"$ref": "org.sagebionetworks.repo.model.FileEntity"
+		}
+	],
+	"properties": {
+		"petName": {
+			"type": "string",
+			"description": "The name of the pet shown in the photo."
+		},
+		"birthday": {
+			"description": "The birthday of the pet shown in the photo.",
+			"type": "string",
+			"format": "date-time"
+		},
+		"petType": {
+			"type": "string",
+			"description": "Identifies the type of pet shown in photo.",
+			"name": "PetTypes",
+			"id": "my.organization.pets.PetTypes",
+			"enum": [
+				{
+					"name": "cat",
+					"description": "The pet is of the feline variety, also known as a cat."
+				},
+				{
+					"name": "dog",
+					"description": "The pet is of the canine variety, also known as a dog."
+				}
+			]
+		}
+	}
+}
