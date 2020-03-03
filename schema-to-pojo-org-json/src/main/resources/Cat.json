@@ -1,0 +1,22 @@
+{
+	"name": "Cat",
+	"id": "my.organization.pets.cat.Cat",
+	"description": "...",
+	"implements": [
+		{
+			"$ref": "my.organization.pets.Pet"
+		}
+	],
+	"requirements": [
+		{
+			"type": "propertyValue",
+			"propertyName" : "petType",
+			"propertyValue": "cat"
+		}
+	],
+	"properties": {
+		"breed": {
+			"$ref": "my.organization.pets.cat.Breed"
+		}
+	}
+}

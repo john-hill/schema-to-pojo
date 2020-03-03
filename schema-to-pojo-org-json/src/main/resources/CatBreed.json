@@ -1,0 +1,28 @@
+{
+	"name": "Breed",
+	"id": "my.organization.pets.cat.Breed",
+	"description": "Enumeration of possible cat breeds.",
+	"type": "string",
+	"enum": [
+		{
+			"name": "Siamese",
+			"description": "..."
+		},
+		{
+			"name": "Persian",
+			"description": "..."
+		},
+		{
+			"name": "Maine Coon",
+			"description": "..."
+		},
+		{
+			"name": "Ragdoll",
+			"description": "..."
+		},
+		{
+			"name": "American Shorthair",
+			"description": "..."
+		}
+	]
+}
