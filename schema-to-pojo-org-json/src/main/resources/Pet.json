@@ -1,6 +1,7 @@
 {
 	"name": "Pet",
 	"id": "my.organization.pets.Pet",
+	"version":"1.0.3",
 	"description": "Base type information shared by all pet types.",
 	"abstract" : true,
 	"implements": [
