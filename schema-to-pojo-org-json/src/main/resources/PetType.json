@@ -1,0 +1,16 @@
+{
+	"name": "PetTypes",
+	"id": "my.organization.pets.PetTypes",
+	"type": "string",
+	"description": "Identifies the type of pet shown in photo.",
+	"enum": [
+		{
+			"name": "cat",
+			"description": "The pet is of the feline variety, also known as a cat."
+		},
+		{
+			"name": "dog",
+			"description": "The pet is of the canine variety, also known as a dog."
+		}
+	]
+}
