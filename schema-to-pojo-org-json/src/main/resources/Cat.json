@@ -1,17 +1,10 @@
 {
-	"name": "Cat",
-	"id": "my.organization.pets.cat.Cat",
+	"title": "Cat",
+	"$id": "my.organization.pets.cat.Cat",
 	"description": "...",
-	"implements": [
+	"allOf": [
 		{
 			"$ref": "my.organization.pets.Pet"
-		}
-	],
-	"requirements": [
-		{
-			"type": "propertyValue",
-			"propertyName" : "petType",
-			"propertyValue": "cat"
 		}
 	],
 	"properties": {

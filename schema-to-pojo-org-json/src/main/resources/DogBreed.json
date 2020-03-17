@@ -1,28 +1,13 @@
 {
-	"name": "Breed",
-	"id": "my.organization.pets.dog.Breed",
+	"title": "Dog Breed",
+	"$id": "my.organization.pets.dog.Breed",
 	"description": "Enumeration of possible dog breeds.",
 	"type": "string",
 	"enum": [
-		{
-			"name": "Labrador Retriever",
-			"description": "..."
-		},
-		{
-			"name": "German Shepherd",
-			"description": "..."
-		},
-		{
-			"name": "Golden Retriever",
-			"description": "..."
-		},
-		{
-			"name": "Bulldog",
-			"description": "..."
-		},
-		{
-			"name": "Beagle",
-			"description": "..."
-		}
+		"Labrador Retriever",
+		"German Shepherd",
+		"Golden Retriever",
+		"Bulldog",
+		"Beagle"
 	]
 }

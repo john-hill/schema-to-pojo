@@ -1,0 +1,41 @@
+{
+	"title": "Pet Photo",
+	"$id": "my.organization.pets.PetPhoto",
+	"description": "...",
+	"oneOf": [
+		{
+			"if": {
+				"properties": {
+					"petType": {
+						"enum": [
+							"cat"
+						]
+					}
+				},
+				"required": [
+					"petType"
+				]
+			},
+			"then": {
+				"$ref": "my.organization.pets.cat.Cat"
+			}
+		},
+		{
+			"if": {
+				"properties": {
+					"petType": {
+						"enum": [
+							"dog"
+						]
+					}
+				},
+				"required": [
+					"petType"
+				]
+			},
+			"then": {
+				"$ref": "my.organization.pets.dog.Dog"
+			}
+		}
+	]
+}
